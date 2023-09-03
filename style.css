@@ -1,0 +1,25 @@
+div {
+    background-color: rgb(214, 187, 147);
+    grid: 3px;
+    display: inline-block;
+}
+
+textarea {
+    text-align: center;
+    background-color: rgb(211, 136, 23);
+}
+
+body {
+    text-align: center;
+    background-color: rgb(184, 104, 30);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+aside {
+    background-color: rgb(214, 187, 147);
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}

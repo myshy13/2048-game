@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>2048</title>
+    </head>
+    <body>
+        <button onclick="            function random(max) {
+            return getRandomInt(max)
+        } var RandomLocation = parseFloat( random(4) + ':' + random(4))
+        switch(RandomLocation) {
+            case 1/x1:
+                document.getElementById('1:1').innerHTML = 2;
+            break;
+            case 1/x2: 
+                document.getElementById('1:2').innerHTML= 4;
+            }">start game</button>
+        <button type="reset"
+            style="font-weight: bold; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"
+            onclick="location.reload()">| | | | | reset | | | | | |</button>
+        <aside>
+            <div>
+                <textarea readonly="true" style="width: 4em; " id="1x1"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="1x2"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="1x3"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="1x4"></textarea>
+            </div>
+        </aside>
+        <aside>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="2x1"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="2x2"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="2x3"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="2x4"></textarea>
+            </div>
+        </aside>
+        <aside>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="3x1"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="3x2"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="3x3"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="3x4"></textarea>
+            </div>
+        </aside>
+        <aside>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="4x1"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="4x2"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="4x3"></textarea>
+            </div>
+            <div>
+                <textarea readonly="true" style="width: 4em;" id="4x4"></textarea>
+            </div>
+        </aside>
+        <script type="text/javascript">
+            document.onkeydown = function(event) {
+                switch (event.keyCode) {
+                   case 37:
+                        //left arrow
+                      break;
+                   case 38:
+                        //up arrow
+                      break;
+                   case 39:
+                        //right arrow
+                      break;
+                   case 40:
+                        //down arrow
+                      break;
+                }
+            };
+        </script>
+    </body>
+</html>
