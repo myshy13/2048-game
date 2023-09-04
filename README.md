@@ -1,2 +1,2 @@
 # 2048-game
-play 2048
+this game is still in progress
