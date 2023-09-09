@@ -74,30 +74,34 @@
             </div>
         </aside>
         <script type="text/javascript">
+            function readbox(square) {
+                return document.getElementById(square).Value;
+            }
+
+            function writebox(square, data) {
+                doucument.getElementById(square).innerHTML = data;
+            }
+            //create the readbox() function
+
             document.onkeydown = function(event) {
                 switch (event.keyCode) {
                    case 37:
                         //left arrow
-                        if (!Document.getElementById('1:1').Value == '') {
-                        if(!Document.getElementById('4:1').Value == ''){
+                        if (!Document.getElementById('1x1').Value == '') {
+                        if(!Document.getElementById('4x1').Value == ''){
 
                         }
                     }
                       break;
                    case 38:
                         //up arrow
-                        if (!Document.getElementById('1:1').Value == '') {
-                        if(!Document.getElementById('4:1').Value == ''){
+                        if (!Document.getElementById('1x1').Value == '') {
+                        if(!Document.getElementById('4x1').Value == ''){
                         }
                     }
                       break;
                    case 39:
                         //right arrow
-                        if (!Document.getElementById('1:1').Value == '') {
-                        if(!Document.getElementById('4:1').Value == ''){
-                            
-                        }
-                    }
                       break;
                    case 40:
                         //down arrow
@@ -107,7 +111,7 @@
                         }
                     }
                       break;
-                }
+                    }
             };
         </script>
     </body>
